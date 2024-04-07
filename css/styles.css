@@ -1,0 +1,154 @@
+/* GENERAL */
+:root {
+  --slate: #434455;
+  --white: #ffffff;
+  --cornflower: #e7e9fc;
+  --navy-blue: #2e2f42;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #fff;
+  margin: 0;
+}
+
+a {
+  color: var(--slate);
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.header {
+  background-color: var(--white);
+}
+
+.header__nav a {
+  color: var(--navy-blue);
+  font-weight: 500;
+}
+
+.header__nav a:hover {
+  color: var(--iris);
+}
+
+.header__contacts a:hover {
+  color: var(--iris);
+}
+
+/* FOOTER */
+.footer {
+  color: var(--cloud);
+  background-color: var(--navy-blue);
+}
+
+.footer__description {
+  color: var(--cloud);
+}
+
+/* LOGO */
+.logo {
+  font-family: Railway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+
+.logo.light {
+  color: var(--cloud);
+}
+
+.logo .blue {
+  color: var(--iris);
+}
+
+/* MAIN PAGE */
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero h1 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.hero__button {
+  background-color: var(--iris);
+  color: var(--white);
+}
+
+.hero__button:hover {
+  background-color: var(--ocean);
+}
+
+.description h3 {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.section__title {
+  color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--cloud);
+}
+
+.team__card {
+  width: fit-content;
+  background-color: var(--white);
+}
+
+.team__card-title {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* PORTFOLIO PAGE */
+.tabs button {
+  background-color: var(--cornflower);
+  color: var(--iris);
+  font-weight: 500;
+}
+
+.tabs button:hover,
+.tabs button.active {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+.projects__card-title {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+}
